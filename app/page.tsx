@@ -1,15 +1,16 @@
 // import Ascii from "./components/Ascii";
 import Ascii from "@/app/components/Ascii";
-import LicenseUtils from "@/app/utils/license.utils";
 
 export default function Home() {
-  const getCarType = () => {
-    return LicenseUtils.getCarTypeData("JWZ148").then((data) => {
-      return data.carType;
-    });
-  };
+  // const getCarType = () => {
+  //   return LicenseUtils.getCarTypeData("JWZ148").then((data) => {
+  //     return data.carType;
+  //   });
+  // };
 
-  const carType = getCarType();
+  // const carType = getCarType();
+
+  const carType = "Stationsvagn Kombivagn";
 
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
